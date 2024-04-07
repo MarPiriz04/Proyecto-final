@@ -103,7 +103,7 @@ body {
 
 .contendorOdertas {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
     gap: 20px;   
 }
 
@@ -149,6 +149,14 @@ body {
     background-color: #28a745;
 }
 /*Analgesicos*/
+
+.analgesicos { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
  .contenedorAnalgesicos p{
     text-align: center;
     font-style: italic;
@@ -159,37 +167,147 @@ body {
     color: black;
  }
 
- /*Anticonceptivo*/
- .contenedorAnticonceptivos p{
-    text-align: center;
-    font-style: italic;
+ .imgAnalgesicos {
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
  }
- .contenedorAnticonceptivos h3 {
+
+ .contenedorAnalgesicos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+ }
+
+ /*Anticonceptivos*/
+
+ .anticonceptivos  p {
+    color: #0361ae;
+    font-size: 4rem;
+    padding: 10px;
+}
+
+
+.anticonceptivos { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
-    font-size: 1.5rem;
-    color: black;
+}
+
+.contenedorAnticonceptivos {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #ccc;
+    padding: 20px;
+    box-shadow: opx 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.imgAnticonceptivos {
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
  }
 
  /*Suplementos Nutricionales*/
- .contenedorSuplementosNutricionales p{
+
+ .suplementosNutricionales { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+ .contenedorSumplementosNutricionales p {
     text-align: center;
     font-style: italic;
+    color: #0361ae;
+    font-size: 1rem;
  }
- .contenedorSumplementosNutricionales h3 {
+ .sumplementosNutricionales h2 {
     text-align: center;
     font-size: 1.5rem;
     color: black;
  }
 
- /*Antigripales*/
- .contenedorAntigripales p{
+ .sumplementosNutricionales { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
-    font-style: italic;
+}
+
+ .contenedorSumplementosNutricionales {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #ccc;
+    padding: 20px;
+    box-shadow: opx 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.imgSuplementosNutricionales {
+    object-fit:cover;
+    width: 50%;
+    height: 50%;
  }
- .contenedorAntigripales h3 {
+
+ /*Antigripales*/
+
+ .contenedorAntigripales h2 {
     text-align: center;
     font-size: 1.5rem;
     color: black;
+ }
+ .antigripales  p {
+    color: #0361ae;
+    font-size: 4rem;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.antigripales { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedorAntigripales {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #ccc;
+    padding: 20px;
+    box-shadow: opx 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.imgAntigripales {
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
  }
 
 /*Footer*/
@@ -239,30 +357,6 @@ body {
     margin-right: 10px;
 }
 
-.contenedorAnalgesicos,
-.contenedorAntigripales,
-.contenedorAnticonceptivos,
-.contenedorSuplementosNutricionales {
-    margin: 20px;
-    border: 4px ;
-    border-radius: 10px;
-}
-
-.imgAnalgesicos,
-.imgAnticonceptivos,
-.imgAntigripales,
-.imgSuplementosNutricionales {
-    display: flexbox;
-    width: 100%;
-    height: fit-content;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-
-}
-
 /* IFrame*/
 
 iframe {
@@ -271,7 +365,12 @@ iframe {
 }
 
 /* FORMULARIO */
-
+.contacto { 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
 form {
     margin-top: 20px;
 }
@@ -305,10 +404,14 @@ textarea {
     margin-top:  10px;
 }
 
+/*ubicacion*/
 
-
-
-
+.ubicacion {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
 
 
 /*****************/
@@ -344,16 +447,59 @@ textarea {
         font-size: 2rem;
     }
 
-    .ofertas h3, p {
+    .ofertas h2, p {
         font-size: inherit;
     }
 
-    .contendorOfertas {
-        grid-template-columns: 1fr 1fr;
+/*PAGINAS*/
+
+
+   .analgesicos {
+          margin: 5vh;
+          font-size: 2rem;
+        }
+    .analgesicos h2, p {
+        font-size: inherit;
+    }   
+    .imgAnalgesicos{
+        grid-template-columns: repeat(5, 1fr);
     }
 
+    .anticonceptivos {
+        margin: 5vh;
+        font-size: 2rem;
+      }
+  .anticonceptivos h2, p {
+      font-size: inherit;
+  }   
+  .imgAnticonceptivos{
+      grid-template-columns: repeat(5, 1fr);
+  }
 
-    /*footer*/
+  .antigripales {
+    margin: 5vh;
+    font-size: 2rem;
+  }
+.antigripales h2, p {
+  font-size: inherit;
+}   
+.imgAnatigripales{
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.suplementosNutricionales {
+    margin: 5vh;
+    font-size: 2rem;
+  }
+.suplementosNutricionales h2, p {
+  font-size: inherit;
+}   
+.imgSuplementosNutricionales{
+  grid-template-columns: repeat(5, 1fr);
+}
+    
+    
+ /*footer*/
 
     .footerContenido {
         flex-direction: column;
@@ -371,4 +517,4 @@ textarea {
    .contendorOfertas {
     grid-template-columns: 1fr;
   }
-  }
+}
