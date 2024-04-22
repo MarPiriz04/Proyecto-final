@@ -1,0 +1,108 @@
+/*****************/
+
+/* RESPOSIVE*/
+
+/*VISTA TABLET*/
+/* 768 PX  2023PX*/
+@media (max-width: 1023px) {
+    /*header*/
+  
+    .encabezado {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .encabezado .botonChat {
+      display: none;
+    }
+  
+    /*BANNER*/
+  
+    .carouselBanner {
+      height: auto;
+      flex-direction: column;
+    }
+    /*ofertas*/
+  
+    .ofertas {
+      margin: 5vh;
+      font-size: 2rem;
+    }
+  
+    .ofertas h2,
+    p {
+      font-size: inherit;
+    }
+  
+    /*PAGINAS*/
+  
+    .analgesicos {
+      margin: 5vh;
+      font-size: 2rem;
+    }
+    .analgesicos h2,
+    p {
+      font-size: inherit;
+    }
+
+    .anticonceptivos {
+      margin: 5vh;
+      font-size: 2rem;
+    }
+    .anticonceptivos h2,
+    p {
+      font-size: inherit;
+    }
+  
+    .antigripales {
+      margin: 5vh;
+      font-size: 2rem;
+    }
+    .antigripales h2,
+    p {
+      font-size: inherit;
+    }
+  
+    .vitaminasSuplementons h2,
+    p {
+      font-size: inherit;
+    }
+  
+     /*footer*/
+  
+     .footerContenido {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+     .formContacto {
+      width: 80vw;
+    }
+  }
+  /*Vista movil*/
+  /*0 hasta 768px*/
+  
+  @media (max-width: 768px) {
+    .contendorOfertas {
+      grid-template-columns: 1fr;
+    }
+  
+    .formContacto {
+      width: 95vw;
+    }
+  
+    .contenedorAnalgesicos{
+      grid-template-columns: 1fr;
+    }
+    .contenedorAnticonceptivos{
+      grid-template-columns: 1fr;
+    }
+    .contenedorAntigripales {
+      grid-template-columns: 1fr;
+    }
+    .contenedorVitaminas {
+      grid-template-columns: 1fr;
+    }
+  }
+  
