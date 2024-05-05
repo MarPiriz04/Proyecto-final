@@ -5,15 +5,12 @@
 /*VISTA TABLET*/
 /* 768 PX  2023PX*/
 @media (max-width: 1023px) {
-    /*header*/
-  
+    /*header*/  
     .encabezado {
-      height: auto;
-      flex-direction: column;
-      text-align: center;
+      margin: 5vh;
+      font-size: 2rem;
     }
-  
-    .encabezado .botonChat {
+    .encabezado .button {
       display: none;
     }
   
@@ -29,11 +26,10 @@
       margin: 5vh;
       font-size: 2rem;
     }
-  
     .ofertas h2,
     p {
       font-size: inherit;
-    }
+    }  
   
     /*PAGINAS*/
   
@@ -45,7 +41,6 @@
     p {
       font-size: inherit;
     }
-
     .anticonceptivos {
       margin: 5vh;
       font-size: 2rem;
@@ -63,20 +58,22 @@
     p {
       font-size: inherit;
     }
-  
+    .vitaminasSuplementons{
+      margin: 5vh;
+      font-size: 2rem;
+    }
     .vitaminasSuplementons h2,
     p {
       font-size: inherit;
     }
+  /*footer*/
   
-     /*footer*/
-  
-     .footerContenido {
+    .footerContenido {
       flex-direction: column;
       text-align: center;
     }
   
-     .formContacto {
+    .formContacto {
       width: 80vw;
     }
   }

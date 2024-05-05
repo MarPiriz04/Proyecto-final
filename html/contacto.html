@@ -27,22 +27,22 @@
     <header>
         <div class="encabezado">
             <h1> Farmacia <span class="azul"> Veracierto </span></h1>
-            <div class="d-flex">
-              <div class="dropdown me-1">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
-                   Menu
-                  </button>
-                 <nav>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../index.html">Home</a></li>
-                    <li><a class="dropdown-item" href="../html/analgesicos.html">Analgesicos</a></li>
-                    <li><a class="dropdown-item" href="../html/anticonceptivos.html">Anticonceptivos</a></li>
-                    <li><a class="dropdown-item" href="../html/antigripales.html">Antigripales</a></li>
-                    <li><a class="dropdown-item" href="../html/vitaminasysuplementos.html">Vitaminas y Suplementos</a></li>
-                </ul>
-               </nav>
-             </div>
-            </div>
+                <div class="d-flex">
+                    <div class="dropdown me-1">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                        Menu
+                        </button>
+                        <nav>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                                <li><a class="dropdown-item" href="../html/analgesicos.html">Analgesicos</a></li>
+                                <li><a class="dropdown-item" href="../html/anticonceptivos.html">Anticonceptivos</a></li>
+                                <li><a class="dropdown-item" href="../html/antigripales.html">Antigripales</a></li>
+                                <li><a class="dropdown-item" href="../html/vitaminasysuplementos.html">Vitaminas y Suplementos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
         </div>
         <a href="https://api.whatsapp.com/send?phone=094162610" target="_blank">
             <img class="whatsapp" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="logo de whatsapp">
@@ -51,26 +51,23 @@
     <section id="contacto" class="contacto">
         <h2>Contactanos</h2>
     </section>
-
     <main class="contenedorContacto">
         <h3>Nos pondremos en contacto con ud.</h3>
-        <form>
+        <form method="post" name="contacto" netlify>
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre">
-
             <label for="apellido">Apellido</label>
             <input type="text" id="apellido">
-
+            <label for="mail">Mail</label>
+            <input type="email" id="correo">
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono">
             <label for="mensaje">Mensaje</label>
             <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-
             <input class="btnFormulario" type="submit">
-            <input class="btnFormulario" type="reset">
-         </form>       
+        </form>       
     </main>
-
     <!--FOOTER-->
-
 <footer class="footer">
     <div class="footerContenido d-flex flex-column text-center">
         <div class="infoContacto">
@@ -79,24 +76,18 @@
             <p><i class="fas fa-phone"></i> Teléfono: 2525 1161 / 094 162 610</p>
             <p><i class="fas fa-envelope"></i> Email: farmaciaveracierto@hotmail.com</p>
         </div>
-
         <div class="redesSociales">
             <a href="https://www.facebook.com/farmaciaveracierto" target="_blank" rel="noopener noreferrer">
-              <img class="imgRedes" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                <img class="imgRedes" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
             </a>
             <a href="https://www.instagram.com/farmaciaveracierto" target="_blank" rel="noopener noreferrer">
-              <img class="imgRedes" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                <img class="imgRedes" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
             </a>
         </div>
-
-
-         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.40447952936!2d-56.1155251!3d-34.8711881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80cd6dbdb315%3A0xe619229cf8ff6da2!2sFarmacia%20Veracierto!5e0!3m2!1ses-419!2suy!4v1711932636902!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="mapa de farmacia veracierto"></iframe>
-
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.40447952936!2d-56.1155251!3d-34.8711881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80cd6dbdb315%3A0xe619229cf8ff6da2!2sFarmacia%20Veracierto!5e0!3m2!1ses-419!2suy!4v1711932636902!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="mapa de farmacia veracierto"></iframe>
     </div>
 </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/ac484d389e.js"></script>
-
-    
+        <script src="https://kit.fontawesome.com/ac484d389e.js"></script>    
 </body>
 </html>
